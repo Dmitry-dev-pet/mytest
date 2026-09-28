@@ -1,5 +1,5 @@
 import {
-  requireMonitorToken,
+  requireRunAccess,
   requirePost,
   sendError
 } from "../lib/auth.js";
@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     requirePost(req);
 
     const sandbox = await getExistingResearchSandbox();
-    await requireMonitorToken(req, sandbox, MONITOR_AUTH);
+    await requireRunAccess(req, sandbox, MONITOR_AUTH);
     await sandbox.stop();
 
     res.status(200).json({ ok: true, stopped: true });
