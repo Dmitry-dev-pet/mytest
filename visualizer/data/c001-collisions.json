@@ -1,0 +1,8366 @@
+{
+  "events": [
+    {
+      "move": "U",
+      "source_pair": [
+        0,
+        3
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        0,
+        5
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        0,
+        40
+      ],
+      "ease_rational": [
+        5,
+        9
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        0,
+        41
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        0,
+        42
+      ],
+      "ease_rational": [
+        4,
+        9
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        1,
+        3
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        1,
+        5
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        1,
+        6
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        1,
+        40
+      ],
+      "ease_rational": [
+        11,
+        17
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        1,
+        41
+      ],
+      "ease_rational": [
+        10,
+        17
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        1,
+        42
+      ],
+      "ease_rational": [
+        9,
+        17
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        3
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        4
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        5
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        6
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        7
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        40
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        41
+      ],
+      "ease_rational": [
+        11,
+        15
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        2,
+        42
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        3,
+        5
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        3,
+        40
+      ],
+      "ease_rational": [
+        13,
+        22
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        3,
+        41
+      ],
+      "ease_rational": [
+        6,
+        11
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        3,
+        42
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        4,
+        5
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        4,
+        6
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        4,
+        7
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        4,
+        40
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        4,
+        41
+      ],
+      "ease_rational": [
+        13,
+        18
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        4,
+        42
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        5,
+        40
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        5,
+        41
+      ],
+      "ease_rational": [
+        14,
+        25
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        5,
+        42
+      ],
+      "ease_rational": [
+        13,
+        25
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        6,
+        40
+      ],
+      "ease_rational": [
+        16,
+        23
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        6,
+        41
+      ],
+      "ease_rational": [
+        15,
+        23
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        6,
+        42
+      ],
+      "ease_rational": [
+        14,
+        23
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        7,
+        40
+      ],
+      "ease_rational": [
+        17,
+        22
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        7,
+        41
+      ],
+      "ease_rational": [
+        8,
+        11
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        7,
+        42
+      ],
+      "ease_rational": [
+        15,
+        22
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        8,
+        11
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        8,
+        12
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        8,
+        13
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        8,
+        14
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        8,
+        15
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        9,
+        11
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        9,
+        12
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        9,
+        13
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        9,
+        14
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        9,
+        15
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        10,
+        11
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        10,
+        12
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        10,
+        13
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        10,
+        14
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        10,
+        15
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        19
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        20
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        21
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        22
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        23
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        24
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        25
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        26
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        27
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        28
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        29
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        30
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        16,
+        31
+      ],
+      "ease_rational": [
+        17,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        19
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        20
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        21
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        22
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        23
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        24
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        25
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        26
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        27
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        28
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        29
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        30
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        17,
+        31
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        19
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        20
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        21
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        22
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        23
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        24
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        25
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        26
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        27
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        28
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        29
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        30
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        18,
+        31
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        32,
+        35
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        32,
+        36
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        32,
+        37
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        32,
+        38
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        32,
+        39
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        33,
+        35
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        33,
+        36
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        33,
+        37
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        33,
+        38
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        33,
+        39
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        34,
+        35
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        34,
+        36
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        34,
+        37
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        34,
+        38
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        34,
+        39
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        40,
+        43
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        40,
+        44
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        40,
+        45
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        40,
+        46
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        40,
+        47
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        41,
+        43
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        41,
+        44
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        41,
+        45
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        41,
+        46
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        41,
+        47
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        42,
+        43
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        42,
+        44
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        42,
+        45
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        42,
+        46
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "U",
+      "source_pair": [
+        42,
+        47
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        0,
+        2
+      ],
+      "ease_rational": [
+        2,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        0,
+        4
+      ],
+      "ease_rational": [
+        4,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        0,
+        7
+      ],
+      "ease_rational": [
+        7,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        1,
+        2
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        1,
+        4
+      ],
+      "ease_rational": [
+        3,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        1,
+        7
+      ],
+      "ease_rational": [
+        6,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        2,
+        4
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        2,
+        7
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        2,
+        46
+      ],
+      "ease_rational": [
+        6,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        2,
+        47
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        3,
+        4
+      ],
+      "ease_rational": [
+        1,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        3,
+        7
+      ],
+      "ease_rational": [
+        4,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        3,
+        18
+      ],
+      "ease_rational": [
+        19,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        4,
+        7
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        4,
+        44
+      ],
+      "ease_rational": [
+        10,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        4,
+        46
+      ],
+      "ease_rational": [
+        8,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        4,
+        47
+      ],
+      "ease_rational": [
+        7,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        5,
+        7
+      ],
+      "ease_rational": [
+        2,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        5,
+        18
+      ],
+      "ease_rational": [
+        17,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        5,
+        20
+      ],
+      "ease_rational": [
+        19,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        6,
+        7
+      ],
+      "ease_rational": [
+        1,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        6,
+        18
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        6,
+        20
+      ],
+      "ease_rational": [
+        9,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        7,
+        41
+      ],
+      "ease_rational": [
+        16,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        7,
+        42
+      ],
+      "ease_rational": [
+        15,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        7,
+        44
+      ],
+      "ease_rational": [
+        13,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        7,
+        46
+      ],
+      "ease_rational": [
+        11,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        7,
+        47
+      ],
+      "ease_rational": [
+        10,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        8,
+        11
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        8,
+        13
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        8,
+        18
+      ],
+      "ease_rational": [
+        6,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        8,
+        20
+      ],
+      "ease_rational": [
+        7,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        8,
+        23
+      ],
+      "ease_rational": [
+        17,
+        22
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        9,
+        11
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        9,
+        13
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        9,
+        14
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        9,
+        18
+      ],
+      "ease_rational": [
+        11,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        9,
+        20
+      ],
+      "ease_rational": [
+        13,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        9,
+        23
+      ],
+      "ease_rational": [
+        16,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        11
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        12
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        13
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        14
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        15
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        18
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        20
+      ],
+      "ease_rational": [
+        12,
+        25
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        10,
+        23
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        11,
+        13
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        11,
+        18
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        11,
+        20
+      ],
+      "ease_rational": [
+        11,
+        18
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        11,
+        23
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        12,
+        13
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        12,
+        14
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        12,
+        15
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        12,
+        18
+      ],
+      "ease_rational": [
+        4,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        12,
+        20
+      ],
+      "ease_rational": [
+        5,
+        11
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        12,
+        23
+      ],
+      "ease_rational": [
+        13,
+        22
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        13,
+        18
+      ],
+      "ease_rational": [
+        7,
+        15
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        13,
+        20
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        13,
+        23
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        14,
+        18
+      ],
+      "ease_rational": [
+        6,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        14,
+        20
+      ],
+      "ease_rational": [
+        8,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        14,
+        23
+      ],
+      "ease_rational": [
+        11,
+        17
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        15,
+        18
+      ],
+      "ease_rational": [
+        5,
+        18
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        15,
+        20
+      ],
+      "ease_rational": [
+        7,
+        18
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        15,
+        23
+      ],
+      "ease_rational": [
+        5,
+        9
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        16,
+        18
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        16,
+        20
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        16,
+        23
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        17,
+        18
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        17,
+        20
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        17,
+        23
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        19,
+        20
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        19,
+        23
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        19,
+        26
+      ],
+      "ease_rational": [
+        9,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        21,
+        23
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        21,
+        26
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        21,
+        28
+      ],
+      "ease_rational": [
+        9,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        22,
+        23
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        22,
+        26
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        22,
+        28
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        24,
+        26
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        24,
+        28
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        24,
+        31
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        25,
+        26
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        25,
+        28
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        25,
+        31
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        27,
+        28
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        27,
+        31
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        27,
+        45
+      ],
+      "ease_rational": [
+        22,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        29,
+        31
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        29,
+        43
+      ],
+      "ease_rational": [
+        18,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        29,
+        45
+      ],
+      "ease_rational": [
+        20,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        30,
+        31
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        30,
+        43
+      ],
+      "ease_rational": [
+        17,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        30,
+        45
+      ],
+      "ease_rational": [
+        19,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        32,
+        40
+      ],
+      "ease_rational": [
+        10,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        32,
+        43
+      ],
+      "ease_rational": [
+        13,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        32,
+        45
+      ],
+      "ease_rational": [
+        15,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        33,
+        40
+      ],
+      "ease_rational": [
+        9,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        33,
+        43
+      ],
+      "ease_rational": [
+        12,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        33,
+        45
+      ],
+      "ease_rational": [
+        14,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        34,
+        40
+      ],
+      "ease_rational": [
+        8,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        34,
+        43
+      ],
+      "ease_rational": [
+        11,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        34,
+        45
+      ],
+      "ease_rational": [
+        13,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        35,
+        40
+      ],
+      "ease_rational": [
+        7,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        35,
+        43
+      ],
+      "ease_rational": [
+        10,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        35,
+        45
+      ],
+      "ease_rational": [
+        12,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        36,
+        40
+      ],
+      "ease_rational": [
+        6,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        36,
+        43
+      ],
+      "ease_rational": [
+        9,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        36,
+        45
+      ],
+      "ease_rational": [
+        11,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        37,
+        40
+      ],
+      "ease_rational": [
+        5,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        37,
+        43
+      ],
+      "ease_rational": [
+        8,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        37,
+        45
+      ],
+      "ease_rational": [
+        10,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        38,
+        40
+      ],
+      "ease_rational": [
+        4,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        38,
+        43
+      ],
+      "ease_rational": [
+        7,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        38,
+        45
+      ],
+      "ease_rational": [
+        9,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        39,
+        40
+      ],
+      "ease_rational": [
+        3,
+        13
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        39,
+        43
+      ],
+      "ease_rational": [
+        6,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        39,
+        45
+      ],
+      "ease_rational": [
+        8,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        40,
+        43
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        40,
+        45
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        41,
+        43
+      ],
+      "ease_rational": [
+        2,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        41,
+        45
+      ],
+      "ease_rational": [
+        4,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        42,
+        43
+      ],
+      "ease_rational": [
+        1,
+        19
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        42,
+        45
+      ],
+      "ease_rational": [
+        3,
+        23
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        43,
+        45
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "R",
+      "source_pair": [
+        44,
+        45
+      ],
+      "ease_rational": [
+        1,
+        23
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        0,
+        34
+      ],
+      "ease_rational": [
+        18,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        0,
+        36
+      ],
+      "ease_rational": [
+        8,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        0,
+        39
+      ],
+      "ease_rational": [
+        13,
+        18
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        1,
+        34
+      ],
+      "ease_rational": [
+        19,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        1,
+        36
+      ],
+      "ease_rational": [
+        17,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        1,
+        39
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        2,
+        34
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        2,
+        36
+      ],
+      "ease_rational": [
+        9,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        2,
+        39
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        3,
+        34
+      ],
+      "ease_rational": [
+        21,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        3,
+        36
+      ],
+      "ease_rational": [
+        19,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        3,
+        39
+      ],
+      "ease_rational": [
+        8,
+        9
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        4,
+        34
+      ],
+      "ease_rational": [
+        22,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        4,
+        36
+      ],
+      "ease_rational": [
+        10,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        4,
+        39
+      ],
+      "ease_rational": [
+        17,
+        18
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        6,
+        9
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        6,
+        10
+      ],
+      "ease_rational": [
+        6,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        7,
+        9
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        7,
+        10
+      ],
+      "ease_rational": [
+        5,
+        8
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        7,
+        12
+      ],
+      "ease_rational": [
+        7,
+        8
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        9
+      ],
+      "ease_rational": [
+        1,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        10
+      ],
+      "ease_rational": [
+        1,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        11
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        12
+      ],
+      "ease_rational": [
+        2,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        13
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        14
+      ],
+      "ease_rational": [
+        3,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        15
+      ],
+      "ease_rational": [
+        7,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        16
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        17
+      ],
+      "ease_rational": [
+        11,
+        19
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        18
+      ],
+      "ease_rational": [
+        12,
+        17
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        19
+      ],
+      "ease_rational": [
+        13,
+        24
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        20
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        21
+      ],
+      "ease_rational": [
+        5,
+        9
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        22
+      ],
+      "ease_rational": [
+        16,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        8,
+        23
+      ],
+      "ease_rational": [
+        17,
+        24
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        12
+      ],
+      "ease_rational": [
+        1,
+        18
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        13
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        14
+      ],
+      "ease_rational": [
+        1,
+        6
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        15
+      ],
+      "ease_rational": [
+        2,
+        9
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        16
+      ],
+      "ease_rational": [
+        7,
+        16
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        17
+      ],
+      "ease_rational": [
+        8,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        18
+      ],
+      "ease_rational": [
+        9,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        19
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        20
+      ],
+      "ease_rational": [
+        11,
+        16
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        21
+      ],
+      "ease_rational": [
+        12,
+        23
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        22
+      ],
+      "ease_rational": [
+        13,
+        21
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        11,
+        23
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        14
+      ],
+      "ease_rational": [
+        1,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        15
+      ],
+      "ease_rational": [
+        2,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        16
+      ],
+      "ease_rational": [
+        5,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        17
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        18
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        19
+      ],
+      "ease_rational": [
+        8,
+        17
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        20
+      ],
+      "ease_rational": [
+        9,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        21
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        22
+      ],
+      "ease_rational": [
+        11,
+        18
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        13,
+        23
+      ],
+      "ease_rational": [
+        12,
+        17
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        16,
+        19
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        16,
+        21
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        17,
+        19
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        17,
+        21
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        17,
+        22
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        18,
+        19
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        18,
+        20
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        18,
+        21
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        18,
+        22
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        18,
+        23
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        19,
+        21
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        20,
+        21
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        20,
+        22
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        20,
+        23
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        27
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        28
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        29
+      ],
+      "ease_rational": [
+        5,
+        12
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        30
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        31
+      ],
+      "ease_rational": [
+        7,
+        12
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        32
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        24,
+        33
+      ],
+      "ease_rational": [
+        11,
+        12
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        27
+      ],
+      "ease_rational": [
+        2,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        28
+      ],
+      "ease_rational": [
+        3,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        29
+      ],
+      "ease_rational": [
+        4,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        30
+      ],
+      "ease_rational": [
+        5,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        31
+      ],
+      "ease_rational": [
+        6,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        32
+      ],
+      "ease_rational": [
+        9,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        33
+      ],
+      "ease_rational": [
+        10,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        25,
+        35
+      ],
+      "ease_rational": [
+        12,
+        13
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        27
+      ],
+      "ease_rational": [
+        1,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        28
+      ],
+      "ease_rational": [
+        2,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        29
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        30
+      ],
+      "ease_rational": [
+        4,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        31
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        32
+      ],
+      "ease_rational": [
+        8,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        33
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        35
+      ],
+      "ease_rational": [
+        11,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        37
+      ],
+      "ease_rational": [
+        13,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        26,
+        38
+      ],
+      "ease_rational": [
+        14,
+        15
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        35
+      ],
+      "ease_rational": [
+        1,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        36
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        37
+      ],
+      "ease_rational": [
+        3,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        38
+      ],
+      "ease_rational": [
+        4,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        39
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        40
+      ],
+      "ease_rational": [
+        8,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        41
+      ],
+      "ease_rational": [
+        9,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        42
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        43
+      ],
+      "ease_rational": [
+        11,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        44
+      ],
+      "ease_rational": [
+        12,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        45
+      ],
+      "ease_rational": [
+        13,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        46
+      ],
+      "ease_rational": [
+        14,
+        25
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        34,
+        47
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        37
+      ],
+      "ease_rational": [
+        1,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        38
+      ],
+      "ease_rational": [
+        1,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        39
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        40
+      ],
+      "ease_rational": [
+        3,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        41
+      ],
+      "ease_rational": [
+        7,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        42
+      ],
+      "ease_rational": [
+        4,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        43
+      ],
+      "ease_rational": [
+        9,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        44
+      ],
+      "ease_rational": [
+        5,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        45
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        46
+      ],
+      "ease_rational": [
+        6,
+        11
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        36,
+        47
+      ],
+      "ease_rational": [
+        13,
+        22
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        40
+      ],
+      "ease_rational": [
+        1,
+        6
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        41
+      ],
+      "ease_rational": [
+        2,
+        9
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        42
+      ],
+      "ease_rational": [
+        5,
+        18
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        43
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        44
+      ],
+      "ease_rational": [
+        7,
+        18
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        45
+      ],
+      "ease_rational": [
+        4,
+        9
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        46
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "F",
+      "source_pair": [
+        39,
+        47
+      ],
+      "ease_rational": [
+        5,
+        9
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        0,
+        13
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        0,
+        14
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        0,
+        15
+      ],
+      "ease_rational": [
+        17,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        1,
+        13
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        1,
+        14
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        1,
+        15
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        2,
+        13
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        2,
+        14
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        2,
+        15
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        3,
+        13
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        3,
+        14
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        3,
+        15
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        4,
+        13
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        4,
+        14
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        4,
+        15
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        5,
+        13
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        5,
+        14
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        5,
+        15
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        6,
+        13
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        6,
+        14
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        6,
+        15
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        7,
+        13
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        7,
+        14
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        7,
+        15
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        8,
+        13
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        8,
+        14
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        8,
+        15
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        9,
+        13
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        9,
+        14
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        9,
+        15
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        10,
+        13
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        10,
+        14
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        10,
+        15
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        11,
+        13
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        11,
+        14
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        11,
+        15
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        12,
+        13
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        12,
+        14
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        12,
+        15
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        16,
+        21
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        16,
+        22
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        16,
+        23
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        17,
+        21
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        17,
+        22
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        17,
+        23
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        18,
+        21
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        18,
+        22
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        18,
+        23
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        19,
+        21
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        19,
+        22
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        19,
+        23
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        20,
+        21
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        20,
+        22
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        20,
+        23
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        24,
+        27
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        24,
+        29
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        24,
+        37
+      ],
+      "ease_rational": [
+        15,
+        22
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        24,
+        38
+      ],
+      "ease_rational": [
+        8,
+        11
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        24,
+        39
+      ],
+      "ease_rational": [
+        17,
+        22
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        25,
+        27
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        25,
+        29
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        25,
+        30
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        25,
+        37
+      ],
+      "ease_rational": [
+        14,
+        23
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        25,
+        38
+      ],
+      "ease_rational": [
+        15,
+        23
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        25,
+        39
+      ],
+      "ease_rational": [
+        16,
+        23
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        27
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        28
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        29
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        30
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        31
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        37
+      ],
+      "ease_rational": [
+        13,
+        25
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        38
+      ],
+      "ease_rational": [
+        14,
+        25
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        26,
+        39
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        27,
+        29
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        27,
+        37
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        27,
+        38
+      ],
+      "ease_rational": [
+        13,
+        18
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        27,
+        39
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        28,
+        29
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        28,
+        30
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        28,
+        31
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        28,
+        37
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        28,
+        38
+      ],
+      "ease_rational": [
+        6,
+        11
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        28,
+        39
+      ],
+      "ease_rational": [
+        13,
+        22
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        29,
+        37
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        29,
+        38
+      ],
+      "ease_rational": [
+        11,
+        15
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        29,
+        39
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        30,
+        37
+      ],
+      "ease_rational": [
+        9,
+        17
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        30,
+        38
+      ],
+      "ease_rational": [
+        10,
+        17
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        30,
+        39
+      ],
+      "ease_rational": [
+        11,
+        17
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        31,
+        37
+      ],
+      "ease_rational": [
+        4,
+        9
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        31,
+        38
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        31,
+        39
+      ],
+      "ease_rational": [
+        5,
+        9
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        32,
+        37
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        32,
+        38
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        32,
+        39
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        33,
+        37
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        33,
+        38
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        33,
+        39
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        34,
+        37
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        34,
+        38
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        34,
+        39
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        35,
+        37
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        35,
+        38
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        35,
+        39
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        36,
+        37
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        36,
+        38
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        36,
+        39
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        40,
+        45
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        40,
+        46
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        40,
+        47
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        41,
+        45
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        41,
+        46
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        41,
+        47
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        42,
+        45
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        42,
+        46
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        42,
+        47
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        43,
+        45
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        43,
+        46
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        43,
+        47
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        44,
+        45
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        44,
+        46
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "D",
+      "source_pair": [
+        44,
+        47
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        1
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        2
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        4
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        6
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        7
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        8
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        9
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        10
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        11
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        12
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        13
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        14
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        0,
+        15
+      ],
+      "ease_rational": [
+        17,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        1,
+        42
+      ],
+      "ease_rational": [
+        9,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        1,
+        44
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        2,
+        42
+      ],
+      "ease_rational": [
+        10,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        2,
+        44
+      ],
+      "ease_rational": [
+        8,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        4
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        6
+      ],
+      "ease_rational": [
+        3,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        7
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        8
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        9
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        10
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        11
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        12
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        13
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        14
+      ],
+      "ease_rational": [
+        13,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        15
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        17
+      ],
+      "ease_rational": [
+        9,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        3,
+        18
+      ],
+      "ease_rational": [
+        19,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        4,
+        42
+      ],
+      "ease_rational": [
+        12,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        6
+      ],
+      "ease_rational": [
+        1,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        7
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        8
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        9
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        10
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        11
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        12
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        13
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        14
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        15
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        17
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        18
+      ],
+      "ease_rational": [
+        17,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        5,
+        20
+      ],
+      "ease_rational": [
+        19,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        16,
+        17
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        16,
+        18
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        16,
+        20
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        16,
+        22
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        16,
+        23
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        19,
+        20
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        19,
+        22
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        19,
+        23
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        19,
+        25
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        19,
+        26
+      ],
+      "ease_rational": [
+        9,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        21,
+        22
+      ],
+      "ease_rational": [
+        1,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        21,
+        23
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        21,
+        25
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        21,
+        26
+      ],
+      "ease_rational": [
+        7,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        21,
+        28
+      ],
+      "ease_rational": [
+        9,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        25
+      ],
+      "ease_rational": [
+        1,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        26
+      ],
+      "ease_rational": [
+        2,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        27
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        28
+      ],
+      "ease_rational": [
+        4,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        29
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        30
+      ],
+      "ease_rational": [
+        2,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        31
+      ],
+      "ease_rational": [
+        7,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        32
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        33
+      ],
+      "ease_rational": [
+        11,
+        24
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        34
+      ],
+      "ease_rational": [
+        6,
+        11
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        35
+      ],
+      "ease_rational": [
+        13,
+        29
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        36
+      ],
+      "ease_rational": [
+        14,
+        25
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        37
+      ],
+      "ease_rational": [
+        15,
+        32
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        38
+      ],
+      "ease_rational": [
+        8,
+        15
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        39
+      ],
+      "ease_rational": [
+        17,
+        29
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        40
+      ],
+      "ease_rational": [
+        20,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        41
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        43
+      ],
+      "ease_rational": [
+        23,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        45
+      ],
+      "ease_rational": [
+        25,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        24,
+        46
+      ],
+      "ease_rational": [
+        26,
+        27
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        28
+      ],
+      "ease_rational": [
+        1,
+        21
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        29
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        30
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        31
+      ],
+      "ease_rational": [
+        4,
+        21
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        32
+      ],
+      "ease_rational": [
+        7,
+        19
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        33
+      ],
+      "ease_rational": [
+        4,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        34
+      ],
+      "ease_rational": [
+        9,
+        16
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        35
+      ],
+      "ease_rational": [
+        10,
+        23
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        36
+      ],
+      "ease_rational": [
+        11,
+        19
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        37
+      ],
+      "ease_rational": [
+        6,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        38
+      ],
+      "ease_rational": [
+        13,
+        24
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        39
+      ],
+      "ease_rational": [
+        14,
+        23
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        40
+      ],
+      "ease_rational": [
+        17,
+        21
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        41
+      ],
+      "ease_rational": [
+        6,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        27,
+        43
+      ],
+      "ease_rational": [
+        20,
+        21
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        30
+      ],
+      "ease_rational": [
+        1,
+        17
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        31
+      ],
+      "ease_rational": [
+        2,
+        17
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        32
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        33
+      ],
+      "ease_rational": [
+        3,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        34
+      ],
+      "ease_rational": [
+        7,
+        12
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        35
+      ],
+      "ease_rational": [
+        8,
+        19
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        36
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        37
+      ],
+      "ease_rational": [
+        5,
+        11
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        38
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        39
+      ],
+      "ease_rational": [
+        12,
+        19
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        40
+      ],
+      "ease_rational": [
+        15,
+        17
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        29,
+        41
+      ],
+      "ease_rational": [
+        16,
+        17
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        32,
+        35
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        32,
+        37
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        33,
+        35
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        33,
+        37
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        33,
+        38
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        34,
+        35
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        34,
+        36
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        34,
+        37
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        34,
+        38
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        34,
+        39
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        35,
+        37
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        36,
+        37
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        36,
+        38
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        36,
+        39
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        42,
+        43
+      ],
+      "ease_rational": [
+        1,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        42,
+        44
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        42,
+        45
+      ],
+      "ease_rational": [
+        3,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        42,
+        46
+      ],
+      "ease_rational": [
+        4,
+        13
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        42,
+        47
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        44,
+        45
+      ],
+      "ease_rational": [
+        1,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        44,
+        46
+      ],
+      "ease_rational": [
+        2,
+        9
+      ]
+    },
+    {
+      "move": "L",
+      "source_pair": [
+        44,
+        47
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        1
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        2
+      ],
+      "ease_rational": [
+        2,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        38
+      ],
+      "ease_rational": [
+        14,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        39
+      ],
+      "ease_rational": [
+        13,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        40
+      ],
+      "ease_rational": [
+        10,
+        17
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        41
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        42
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        43
+      ],
+      "ease_rational": [
+        7,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        44
+      ],
+      "ease_rational": [
+        6,
+        17
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        45
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        46
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        0,
+        47
+      ],
+      "ease_rational": [
+        3,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        2
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        36
+      ],
+      "ease_rational": [
+        17,
+        18
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        38
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        39
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        40
+      ],
+      "ease_rational": [
+        11,
+        20
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        41
+      ],
+      "ease_rational": [
+        10,
+        21
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        42
+      ],
+      "ease_rational": [
+        9,
+        23
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        43
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        44
+      ],
+      "ease_rational": [
+        7,
+        20
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        45
+      ],
+      "ease_rational": [
+        6,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        46
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        1,
+        47
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        33
+      ],
+      "ease_rational": [
+        21,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        34
+      ],
+      "ease_rational": [
+        10,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        36
+      ],
+      "ease_rational": [
+        9,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        38
+      ],
+      "ease_rational": [
+        8,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        39
+      ],
+      "ease_rational": [
+        15,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        40
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        41
+      ],
+      "ease_rational": [
+        11,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        42
+      ],
+      "ease_rational": [
+        10,
+        27
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        43
+      ],
+      "ease_rational": [
+        9,
+        20
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        44
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        45
+      ],
+      "ease_rational": [
+        7,
+        17
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        46
+      ],
+      "ease_rational": [
+        6,
+        19
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        2,
+        47
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        3,
+        10
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        3,
+        12
+      ],
+      "ease_rational": [
+        11,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        3,
+        15
+      ],
+      "ease_rational": [
+        14,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        4,
+        10
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        4,
+        12
+      ],
+      "ease_rational": [
+        10,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        4,
+        15
+      ],
+      "ease_rational": [
+        13,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        5,
+        10
+      ],
+      "ease_rational": [
+        7,
+        12
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        5,
+        12
+      ],
+      "ease_rational": [
+        9,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        5,
+        15
+      ],
+      "ease_rational": [
+        4,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        6,
+        10
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        6,
+        12
+      ],
+      "ease_rational": [
+        8,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        6,
+        15
+      ],
+      "ease_rational": [
+        11,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        7,
+        10
+      ],
+      "ease_rational": [
+        5,
+        12
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        7,
+        12
+      ],
+      "ease_rational": [
+        7,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        7,
+        15
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        8,
+        10
+      ],
+      "ease_rational": [
+        1,
+        6
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        8,
+        12
+      ],
+      "ease_rational": [
+        4,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        8,
+        15
+      ],
+      "ease_rational": [
+        7,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        9,
+        10
+      ],
+      "ease_rational": [
+        1,
+        12
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        9,
+        12
+      ],
+      "ease_rational": [
+        3,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        9,
+        15
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        11,
+        12
+      ],
+      "ease_rational": [
+        1,
+        13
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        11,
+        15
+      ],
+      "ease_rational": [
+        4,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        11,
+        31
+      ],
+      "ease_rational": [
+        24,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        13,
+        15
+      ],
+      "ease_rational": [
+        2,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        13,
+        30
+      ],
+      "ease_rational": [
+        21,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        13,
+        31
+      ],
+      "ease_rational": [
+        22,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        14,
+        15
+      ],
+      "ease_rational": [
+        1,
+        15
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        14,
+        30
+      ],
+      "ease_rational": [
+        10,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        14,
+        31
+      ],
+      "ease_rational": [
+        21,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        16,
+        29
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        16,
+        30
+      ],
+      "ease_rational": [
+        8,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        16,
+        31
+      ],
+      "ease_rational": [
+        17,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        17,
+        29
+      ],
+      "ease_rational": [
+        7,
+        9
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        17,
+        30
+      ],
+      "ease_rational": [
+        15,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        17,
+        31
+      ],
+      "ease_rational": [
+        16,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        18,
+        29
+      ],
+      "ease_rational": [
+        13,
+        18
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        18,
+        30
+      ],
+      "ease_rational": [
+        7,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        18,
+        31
+      ],
+      "ease_rational": [
+        3,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        19,
+        29
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        19,
+        30
+      ],
+      "ease_rational": [
+        13,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        19,
+        31
+      ],
+      "ease_rational": [
+        14,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        20,
+        29
+      ],
+      "ease_rational": [
+        11,
+        18
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        20,
+        30
+      ],
+      "ease_rational": [
+        6,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        20,
+        31
+      ],
+      "ease_rational": [
+        13,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        21,
+        29
+      ],
+      "ease_rational": [
+        5,
+        9
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        21,
+        30
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        21,
+        31
+      ],
+      "ease_rational": [
+        12,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        22,
+        29
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        22,
+        30
+      ],
+      "ease_rational": [
+        5,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        22,
+        31
+      ],
+      "ease_rational": [
+        11,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        23,
+        29
+      ],
+      "ease_rational": [
+        4,
+        9
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        23,
+        30
+      ],
+      "ease_rational": [
+        9,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        23,
+        31
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        24,
+        29
+      ],
+      "ease_rational": [
+        5,
+        18
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        24,
+        30
+      ],
+      "ease_rational": [
+        3,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        24,
+        31
+      ],
+      "ease_rational": [
+        7,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        25,
+        29
+      ],
+      "ease_rational": [
+        2,
+        9
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        25,
+        30
+      ],
+      "ease_rational": [
+        5,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        25,
+        31
+      ],
+      "ease_rational": [
+        6,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        26,
+        29
+      ],
+      "ease_rational": [
+        1,
+        6
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        26,
+        30
+      ],
+      "ease_rational": [
+        2,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        26,
+        31
+      ],
+      "ease_rational": [
+        1,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        27,
+        29
+      ],
+      "ease_rational": [
+        1,
+        9
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        27,
+        30
+      ],
+      "ease_rational": [
+        3,
+        22
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        27,
+        31
+      ],
+      "ease_rational": [
+        4,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        28,
+        29
+      ],
+      "ease_rational": [
+        1,
+        18
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        28,
+        30
+      ],
+      "ease_rational": [
+        1,
+        11
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        28,
+        31
+      ],
+      "ease_rational": [
+        3,
+        25
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        29,
+        30
+      ],
+      "ease_rational": [
+        1,
+        4
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        29,
+        31
+      ],
+      "ease_rational": [
+        2,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        30,
+        31
+      ],
+      "ease_rational": [
+        1,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        33,
+        35
+      ],
+      "ease_rational": [
+        2,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        33,
+        37
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        34,
+        35
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        34,
+        37
+      ],
+      "ease_rational": [
+        3,
+        8
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        36,
+        37
+      ],
+      "ease_rational": [
+        1,
+        8
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        40,
+        43
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        40,
+        45
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        41,
+        43
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        41,
+        45
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        41,
+        46
+      ],
+      "ease_rational": [
+        5,
+        6
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        42,
+        43
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        42,
+        44
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        42,
+        45
+      ],
+      "ease_rational": [
+        3,
+        10
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        42,
+        46
+      ],
+      "ease_rational": [
+        1,
+        2
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        42,
+        47
+      ],
+      "ease_rational": [
+        5,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        43,
+        45
+      ],
+      "ease_rational": [
+        2,
+        3
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        44,
+        45
+      ],
+      "ease_rational": [
+        1,
+        7
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        44,
+        46
+      ],
+      "ease_rational": [
+        2,
+        5
+      ]
+    },
+    {
+      "move": "B",
+      "source_pair": [
+        44,
+        47
+      ],
+      "ease_rational": [
+        3,
+        4
+      ]
+    }
+  ],
+  "metrics": {
+    "U": {
+      "exact_pair_events": 122,
+      "exact_event_times": 39,
+      "max_simultaneous_pair_events": 13,
+      "sampled_max_overlapping_disk_pairs": 29,
+      "sampled_overlap_frame_fraction": 0.8151848151848152
+    },
+    "R": {
+      "exact_pair_events": 128,
+      "exact_event_times": 84,
+      "max_simultaneous_pair_events": 9,
+      "sampled_max_overlapping_disk_pairs": 28,
+      "sampled_overlap_frame_fraction": 0.8801198801198801
+    },
+    "F": {
+      "exact_pair_events": 128,
+      "exact_event_times": 85,
+      "max_simultaneous_pair_events": 10,
+      "sampled_max_overlapping_disk_pairs": 30,
+      "sampled_overlap_frame_fraction": 0.8741258741258742
+    },
+    "D": {
+      "exact_pair_events": 122,
+      "exact_event_times": 39,
+      "max_simultaneous_pair_events": 13,
+      "sampled_max_overlapping_disk_pairs": 29,
+      "sampled_overlap_frame_fraction": 0.8151848151848152
+    },
+    "L": {
+      "exact_pair_events": 128,
+      "exact_event_times": 71,
+      "max_simultaneous_pair_events": 11,
+      "sampled_max_overlapping_disk_pairs": 29,
+      "sampled_overlap_frame_fraction": 0.8901098901098901
+    },
+    "B": {
+      "exact_pair_events": 128,
+      "exact_event_times": 84,
+      "max_simultaneous_pair_events": 10,
+      "sampled_max_overlapping_disk_pairs": 27,
+      "sampled_overlap_frame_fraction": 0.8741258741258742
+    }
+  },
+  "disk_radius_R": 0.04,
+  "sample_count": 1001
+}
