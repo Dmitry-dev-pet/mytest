@@ -55,3 +55,68 @@ jobs:
 
           console.log('Sandbox SDK surface: ok');
           NODE
+
+      - name: Verify monitor-token authentication
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import {
+            HttpError,
+            createMonitorCredential,
+            requireMonitorToken,
+          } from './lib/auth.js';
+
+          const credential = createMonitorCredential();
+
+          function sandboxFor(digest, expiresAt) {
+            return {
+              async runCommand() {
+                return {
+                  async stdout() {
+                    return `${digest} ${expiresAt}\n`;
+                  },
+                };
+              },
+            };
+          }
+
+          const goodReq = {
+            headers: { 'x-monitor-token': credential.token },
+          };
+          await requireMonitorToken(
+            goodReq,
+            sandboxFor(credential.digest, credential.expiresAt),
+            '/fake/monitor-auth',
+          );
+
+          let rejectedWrong = false;
+          try {
+            await requireMonitorToken(
+              { headers: { 'x-monitor-token': 'x'.repeat(43) } },
+              sandboxFor(credential.digest, credential.expiresAt),
+              '/fake/monitor-auth',
+            );
+          } catch (error) {
+            rejectedWrong = error instanceof HttpError && error.status === 403;
+          }
+          if (!rejectedWrong) {
+            throw new Error('wrong monitor token was not rejected');
+          }
+
+          let rejectedExpired = false;
+          try {
+            await requireMonitorToken(
+              goodReq,
+              sandboxFor(credential.digest, Date.now() - 1),
+              '/fake/monitor-auth',
+            );
+          } catch (error) {
+            rejectedExpired = error instanceof HttpError && error.status === 401;
+          }
+          if (!rejectedExpired) {
+            throw new Error('expired monitor token was not rejected');
+          }
+
+          console.log('Monitor-token auth: ok');
+          NODE
