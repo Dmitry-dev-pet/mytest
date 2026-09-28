@@ -3,170 +3,159 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark" />
+  <meta name="color-scheme" content="light" />
   <meta
     name="description"
-    content="Synchronized 3D Rubik's Cube and C-001 one-circle sticker visualization."
+    content="Synchronized Rubik's Cube and circular sticker-graph comparison."
   />
-  <title>Rubik Cube ↔ One Circle</title>
+  <title>Rubik cube ↔ circular graphs</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" href="./styles.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.186.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/"
+      }
+    }
+  </script>
 </head>
 <body>
-  <main class="shell">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">PhysicsIntern · synchronized browser prototype</p>
-        <h1>Rubik cube ↔ one circle</h1>
-        <p class="lede">
-          The ordinary 3D cube and the established one-circle model share the same 48 sticker
-          identities, exact move table, animation clock, and logical state.
+  <main class="frame">
+    <header class="top">
+      <div class="brand">
+        <p class="eyebrow">PhysicsIntern · visual comparison</p>
+        <h1>Rubik cube ↔ circular graphs</h1>
+        <p>
+          One exact cube state, rendered simultaneously as a physical 3D cube and as three
+          different circular sticker layouts.
         </p>
       </div>
-      <div class="hero-badges" aria-label="model properties">
-        <span>3D cube</span>
-        <span>1 circle</span>
-        <span>48 linked stickers</span>
+      <div class="top-status">
+        <span id="status-dot" class="status-dot"></span>
+        <span id="status-text">loading exact C-001 data…</span>
       </div>
     </header>
 
-    <section class="workspace">
-      <div class="stage-card">
-        <div class="stage-toolbar">
-          <div class="status-dot-wrap">
-            <span id="status-dot" class="status-dot"></span>
-            <strong id="status-text">Loading data…</strong>
+    <section class="stage-card">
+      <div class="viz-column">
+        <div class="viz-head">
+          <div>
+            <span class="viz-kicker">physical reference</span>
+            <h2>3D cube</h2>
           </div>
-          <button id="pause-btn" class="quiet-button" type="button">Pause</button>
+          <span class="viz-note">drag to orbit · click a sticker to pin</span>
         </div>
+        <div id="cube-host" class="viz-host cube-host" aria-label="3D Rubik's Cube"></div>
+      </div>
 
-        <div class="comparison-grid">
-          <section class="view-panel">
-            <div class="view-heading">
-              <div>
-                <span class="view-kicker">Physical reference</span>
-                <h2>3D Rubik’s Cube</h2>
-              </div>
-              <span class="view-hint">drag to rotate · click sticker to pin</span>
-            </div>
-            <div class="canvas-wrap cube-wrap">
-              <canvas id="cube3d-canvas" aria-label="Synchronized 3D Rubik's Cube"></canvas>
-            </div>
-          </section>
-
-          <section class="view-panel">
-            <div class="view-heading">
-              <div>
-                <span class="view-kicker">Established W8 model</span>
-                <h2>One-circle representation</h2>
-              </div>
-              <span class="view-hint">hover/click links to the cube</span>
-            </div>
-            <div class="canvas-wrap circle-wrap">
-              <canvas id="circle-canvas" aria-label="One-circle Rubik sticker animation"></canvas>
-            </div>
-          </section>
+      <div class="viz-column graph-column">
+        <div class="viz-head graph-head">
+          <div>
+            <span class="viz-kicker">same 48 moving stickers</span>
+            <h2 id="graph-title">1 circle</h2>
+          </div>
+          <div id="graph-mode-toggle" class="segmented" aria-label="Graph layout">
+            <button type="button" data-graph-mode="one" aria-pressed="true">1 circle</button>
+            <button type="button" data-graph-mode="three" aria-pressed="false">3 rings</button>
+            <button type="button" data-graph-mode="nine" aria-pressed="false">9 rings</button>
+          </div>
         </div>
+        <div id="graph-host" class="viz-host graph-host" aria-label="Circular sticker graph"></div>
+        <p id="graph-mode-note" class="graph-mode-note">
+          Established W8 minimum: all 48 moving stickers live on one fixed circle.
+        </p>
+      </div>
 
-        <div id="error-banner" class="error-banner" hidden></div>
+      <div id="error-banner" class="error-banner" hidden></div>
+    </section>
 
-        <div class="stat-grid" aria-live="polite">
-          <div>
-            <span class="stat-label">Move</span>
-            <strong id="stat-move">—</strong>
-          </div>
-          <div>
-            <span class="stat-label">Progress</span>
-            <strong id="stat-progress">0%</strong>
-          </div>
-          <div>
-            <span class="stat-label">Queue</span>
-            <strong id="stat-queue">0</strong>
-          </div>
-          <div>
-            <span class="stat-label">Live disk overlaps</span>
-            <strong id="stat-overlaps">0</strong>
-          </div>
-          <div>
-            <span class="stat-label">Exact pair events / move</span>
-            <strong id="stat-exact">—</strong>
-          </div>
-          <div>
-            <span class="stat-label">Selected sticker</span>
-            <strong id="stat-selected">—</strong>
-          </div>
-          <div>
-            <span class="stat-label">State</span>
-            <strong id="stat-state">Solved</strong>
-          </div>
+    <section class="controls-card">
+      <div class="move-panel">
+        <div class="section-head">
+          <h2>Moves</h2>
+          <span>same queue drives both views</span>
+        </div>
+        <div id="move-grid" class="move-grid"></div>
+      </div>
+
+      <div class="algorithm-panel">
+        <div class="section-head">
+          <h2>Algorithm</h2>
+          <span>standard Singmaster notation</span>
+        </div>
+        <div class="algorithm-row">
+          <input
+            id="algorithm-input"
+            type="text"
+            value="R U R' U'"
+            spellcheck="false"
+            autocomplete="off"
+            aria-label="Rubik move sequence"
+          />
+          <button id="run-btn" class="primary-button" type="button">Run</button>
+        </div>
+        <div class="button-row">
+          <button id="invert-btn" class="soft-button" type="button">Invert</button>
+          <button id="scramble-btn" class="soft-button" type="button">Scramble 20</button>
+          <button id="pause-btn" class="soft-button" type="button">Pause</button>
+          <button id="reset-btn" class="reset-button" type="button">Reset</button>
         </div>
       </div>
 
-      <aside class="control-card">
-        <section>
-          <div class="section-title-row">
-            <h2>Face moves</h2>
-            <span class="hint">clockwise · inverse · half-turn</span>
-          </div>
-          <div id="move-grid" class="move-grid"></div>
-        </section>
-
-        <section>
-          <label class="field-label" for="algorithm-input">Algorithm</label>
-          <div class="algorithm-row">
-            <input
-              id="algorithm-input"
-              type="text"
-              value="R U R' U'"
-              spellcheck="false"
-              autocomplete="off"
-              aria-label="Rubik move sequence"
-            />
-            <button id="run-btn" class="primary-button" type="button">Run</button>
-          </div>
-          <div class="button-row">
-            <button id="invert-btn" class="quiet-button" type="button">Invert text</button>
-            <button id="scramble-btn" class="quiet-button" type="button">Scramble 20</button>
-            <button id="reset-btn" class="danger-button" type="button">Reset</button>
-          </div>
-        </section>
-
-        <section class="slider-section">
-          <div class="slider-heading">
-            <label for="speed-range">Speed</label>
-            <strong id="speed-value">1.00×</strong>
-          </div>
-          <input id="speed-range" type="range" min="0.2" max="3" step="0.05" value="1" />
-
-          <div class="slider-heading">
-            <label for="marker-range">Circle marker radius</label>
-            <strong id="marker-value">0.040 R</strong>
-          </div>
-          <input id="marker-range" type="range" min="0.018" max="0.06" step="0.002" value="0.04" />
-        </section>
-
-        <section class="toggle-section">
-          <label><input id="labels-toggle" type="checkbox" checked /> Sticker labels</label>
-          <label><input id="collision-toggle" type="checkbox" checked /> Highlight circle overlaps</label>
-          <label><input id="moving-toggle" type="checkbox" checked /> Highlight moving stickers</label>
-        </section>
-
-        <section class="model-note">
-          <h2>Linked identity</h2>
-          <p>
-            A colored square on the cube and a colored point on the circle are the same token.
-            Hover either view to highlight its counterpart; click to keep it pinned while moves run.
-          </p>
-          <dl>
-            <div><dt>3D motion</dt><dd>rigid ±90° layer rotation from D-001 conventions</dd></div>
-            <div><dt>Circle path</dt><dd>W8 cubic easing on the fixed circle</dd></div>
-            <div><dt>State update</dt><dd><code>new[g(i)] = old[i]</code> for both views</dd></div>
-          </dl>
-        </section>
-      </aside>
+      <div class="motion-panel">
+        <div class="section-head">
+          <h2>Motion</h2>
+          <strong id="speed-value">1.00×</strong>
+        </div>
+        <input id="speed-range" type="range" min="0.35" max="2.5" step="0.05" value="1" />
+        <div class="toggle-row">
+          <label><input id="trails-toggle" type="checkbox" checked /> motion tails</label>
+          <label><input id="labels-toggle" type="checkbox" /> selected label</label>
+        </div>
+      </div>
     </section>
 
+    <section class="readout">
+      <div>
+        <span>move</span>
+        <strong id="stat-move">—</strong>
+      </div>
+      <div>
+        <span>progress</span>
+        <strong id="stat-progress">0%</strong>
+      </div>
+      <div>
+        <span>queue</span>
+        <strong id="stat-queue">0</strong>
+      </div>
+      <div>
+        <span>selected sticker</span>
+        <strong id="stat-selected">—</strong>
+      </div>
+      <div>
+        <span>state</span>
+        <strong id="stat-state">solved</strong>
+      </div>
+      <div>
+        <span>W8 exact pair events</span>
+        <strong id="stat-collisions">—</strong>
+      </div>
+    </section>
+
+    <details class="method-note">
+      <summary>What changes between graph modes?</summary>
+      <p>
+        The logical cube never changes. <b>1 circle</b> is the established minimum from W8.
+        <b>3 rings</b> restores the older center/edge/corner visual separation.
+        <b>9 rings</b> reproduces the Jevspin/MathFlow-style intersection layout and motion rule
+        for comparison; it is not used as proof of W8.
+      </p>
+    </details>
+
     <footer>
-      Source of truth: <code>data/c001-browser.json</code> · rendering is floating point; logical sticker identity remains exact and integer-valued.
+      Exact move/state source: <code>data/c001-browser.json</code>.
+      Three.js 0.186.0 is pinned for rendering only.
     </footer>
   </main>
 
