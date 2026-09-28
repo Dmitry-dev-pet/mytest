@@ -10,7 +10,6 @@ import {
 import {
   CODEX_HOME,
   CONTROL_DIR,
-  GEMINI_CLI_HOME,
   REPO_DIR,
   REPO_URL,
   RUN_EXIT,
@@ -27,10 +26,7 @@ const MODES = new Set([
   "compute",
   "review",
   "critique",
-  "finalize",
-  "gemini-review",
-  "gemini-derive",
-  "gemini-critique"
+  "finalize"
 ]);
 
 const LAUNCHER = String.raw`set -euo pipefail
@@ -88,7 +84,7 @@ export default async function handler(req, res) {
       throw new HttpError(400, "unsupported Hobby research mode");
     }
     if (
-      (["derive", "compute", "review", "gemini-review", "gemini-derive", "gemini-critique"].includes(mode)) &&
+      ["derive", "compute", "review"].includes(mode) &&
       !task.trim()
     ) {
       throw new HttpError(400, "this mode requires a task");
@@ -121,7 +117,6 @@ export default async function handler(req, res) {
         TASK: task,
         CODEX_HOME,
         CONTROL_DIR,
-        GEMINI_CLI_HOME,
         REPO_DIR,
         REPO_URL,
         RUN_EXIT,
