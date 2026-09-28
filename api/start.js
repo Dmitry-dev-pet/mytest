@@ -59,6 +59,11 @@ if [[ ! -d "$repo/.git" ]]; then
   mkdir -p "$(dirname "$repo")"
   GIT_ASKPASS="$askpass" GIT_TERMINAL_PROMPT=0 \
     git clone "$REPO_URL" "$repo"
+else
+  GIT_ASKPASS="$askpass" GIT_TERMINAL_PROMPT=0 \
+    git -C "$repo" fetch origin main
+  git -C "$repo" reset --hard origin/main
+  git -C "$repo" clean -fd
 fi
 
 bash "$repo/vercel-hobby/runner/run-stage.sh"
