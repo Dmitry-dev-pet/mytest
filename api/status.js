@@ -1,5 +1,5 @@
 import {
-  requireMonitorToken,
+  requireRunAccess,
   sendError
 } from "../lib/auth.js";
 import {
@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     }
 
     const sandbox = await getExistingResearchSandbox();
-    await requireMonitorToken(req, sandbox, MONITOR_AUTH);
+    await requireRunAccess(req, sandbox, MONITOR_AUTH);
 
     const result = await sandbox.runCommand({
       cmd: "bash",
