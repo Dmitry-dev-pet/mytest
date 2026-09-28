@@ -3,9 +3,15 @@ import {
   sendError
 } from "../lib/auth.js";
 import {
-  requireSandboxId,
-  vercelApi
-} from "../lib/vercel-api.js";
+  RUN_LOG,
+  getExistingResearchSandbox
+} from "../lib/sandbox.js";
+
+const READ_LOGS = String.raw`set -euo pipefail
+if [[ -f "$RUN_LOG" ]]; then
+  tail -c 50000 "$RUN_LOG"
+fi
+`;
 
 export default async function handler(req, res) {
   try {
@@ -14,20 +20,16 @@ export default async function handler(req, res) {
     }
     await requireGitHubOidc(req);
 
-    const sessionId = requireSandboxId(req.query.sessionId, "sbx");
-    const cmdId = requireSandboxId(req.query.cmdId, "cmd");
+    const sandbox = await getExistingResearchSandbox();
+    const result = await sandbox.runCommand({
+      cmd: "bash",
+      args: ["-lc", READ_LOGS],
+      env: { RUN_LOG }
+    });
+    const text = await result.stdout();
 
-    const response = await vercelApi(
-      "/v2/sandboxes/sessions/" +
-        encodeURIComponent(sessionId) +
-        "/cmd/" +
-        encodeURIComponent(cmdId) +
-        "/logs"
-    );
-
-    const text = await response.text();
     res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    res.status(200).send(text.slice(-50000));
+    res.status(200).send(text);
   } catch (error) {
     sendError(res, error);
   }
