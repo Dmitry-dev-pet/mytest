@@ -1,9 +1,10 @@
 import {
-  requireGitHubOidc,
+  requireMonitorToken,
   sendError
 } from "../lib/auth.js";
 import {
   CODEX_HOME,
+  MONITOR_AUTH,
   getExistingResearchSandbox
 } from "../lib/sandbox.js";
 
@@ -19,9 +20,10 @@ export default async function handler(req, res) {
     if (req.method !== "GET") {
       return res.status(405).json({ ok: false, error: "GET required" });
     }
-    await requireGitHubOidc(req);
 
     const sandbox = await getExistingResearchSandbox();
+    await requireMonitorToken(req, sandbox, MONITOR_AUTH);
+
     const result = await sandbox.runCommand({
       cmd: "bash",
       args: ["-lc", CHECK_LOGIN],
