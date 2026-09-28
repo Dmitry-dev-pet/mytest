@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta
+    name="description"
+    content="Interactive browser visualization of the C-001 one-circle Rubik sticker construction."
+  />
+  <title>Rubik One-Circle Visualizer</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">PhysicsIntern · C-001 browser prototype</p>
+        <h1>Rubik on one circle</h1>
+        <p class="lede">
+          Forty-eight sticker tokens, exact face permutations, and every animated path constrained
+          to the same fixed Euclidean circle.
+        </p>
+      </div>
+      <div class="hero-badges" aria-label="model properties">
+        <span>1 circle</span>
+        <span>48 slots</span>
+        <span>endpoint-faithful</span>
+      </div>
+    </header>
+
+    <section class="workspace">
+      <div class="stage-card">
+        <div class="stage-toolbar">
+          <div class="status-dot-wrap">
+            <span id="status-dot" class="status-dot"></span>
+            <strong id="status-text">Loading data…</strong>
+          </div>
+          <button id="pause-btn" class="quiet-button" type="button">Pause</button>
+        </div>
+
+        <div class="canvas-wrap">
+          <canvas id="cube-canvas" aria-label="One-circle Rubik sticker animation"></canvas>
+          <div id="error-banner" class="error-banner" hidden></div>
+        </div>
+
+        <div class="stat-grid" aria-live="polite">
+          <div>
+            <span class="stat-label">Move</span>
+            <strong id="stat-move">—</strong>
+          </div>
+          <div>
+            <span class="stat-label">Progress</span>
+            <strong id="stat-progress">0%</strong>
+          </div>
+          <div>
+            <span class="stat-label">Queue</span>
+            <strong id="stat-queue">0</strong>
+          </div>
+          <div>
+            <span class="stat-label">Live disk overlaps</span>
+            <strong id="stat-overlaps">0</strong>
+          </div>
+          <div>
+            <span class="stat-label">Exact pair events / move</span>
+            <strong id="stat-exact">—</strong>
+          </div>
+          <div>
+            <span class="stat-label">State</span>
+            <strong id="stat-state">Solved</strong>
+          </div>
+        </div>
+      </div>
+
+      <aside class="control-card">
+        <section>
+          <div class="section-title-row">
+            <h2>Face moves</h2>
+            <span class="hint">clockwise · inverse · half-turn</span>
+          </div>
+          <div id="move-grid" class="move-grid"></div>
+        </section>
+
+        <section>
+          <label class="field-label" for="algorithm-input">Algorithm</label>
+          <div class="algorithm-row">
+            <input
+              id="algorithm-input"
+              type="text"
+              value="R U R' U'"
+              spellcheck="false"
+              autocomplete="off"
+              aria-label="Rubik move sequence"
+            />
+            <button id="run-btn" class="primary-button" type="button">Run</button>
+          </div>
+          <div class="button-row">
+            <button id="invert-btn" class="quiet-button" type="button">Invert text</button>
+            <button id="scramble-btn" class="quiet-button" type="button">Scramble 20</button>
+            <button id="reset-btn" class="danger-button" type="button">Reset</button>
+          </div>
+        </section>
+
+        <section class="slider-section">
+          <div class="slider-heading">
+            <label for="speed-range">Speed</label>
+            <strong id="speed-value">1.00×</strong>
+          </div>
+          <input id="speed-range" type="range" min="0.2" max="3" step="0.05" value="1" />
+
+          <div class="slider-heading">
+            <label for="marker-range">Marker radius</label>
+            <strong id="marker-value">0.040 R</strong>
+          </div>
+          <input id="marker-range" type="range" min="0.018" max="0.06" step="0.002" value="0.04" />
+        </section>
+
+        <section class="toggle-section">
+          <label><input id="labels-toggle" type="checkbox" checked /> Token labels</label>
+          <label><input id="collision-toggle" type="checkbox" checked /> Highlight overlaps</label>
+          <label><input id="moving-toggle" type="checkbox" checked /> Highlight moving stickers</label>
+        </section>
+
+        <section class="model-note">
+          <h2>What you are looking at</h2>
+          <p>
+            Coincidences are allowed in the established W8 model. So overlaps during a move are a
+            measured readability cost, not an algebraic error.
+          </p>
+          <dl>
+            <div><dt>Path</dt><dd>cubic easing on the fixed circle</dd></div>
+            <div><dt>State update</dt><dd><code>new[g(i)] = old[i]</code></dd></div>
+            <div><dt>Inverse</dt><dd>exact reversed stored path</dd></div>
+          </dl>
+        </section>
+      </aside>
+    </section>
+
+    <footer>
+      Data: <code>C-001-v1</code> · logical state remains integer-valued; floating point is rendering only.
+    </footer>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
