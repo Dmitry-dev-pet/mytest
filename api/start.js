@@ -1,5 +1,6 @@
 import {
   HttpError,
+  createMonitorCredential,
   getHeader,
   parseBody,
   requireGitHubOidc,
@@ -14,7 +15,8 @@ import {
   RUN_EXIT,
   RUN_LOG,
   RUN_STATUS,
-  getResearchSandbox
+  getResearchSandbox,
+  installMonitorCredential
 } from "../lib/sandbox.js";
 
 const MODES = new Set([
@@ -92,6 +94,13 @@ export default async function handler(req, res) {
     }
 
     const sandbox = await getResearchSandbox();
+    const monitor = createMonitorCredential();
+    await installMonitorCredential(
+      sandbox,
+      monitor.digest,
+      monitor.expiresAt
+    );
+
     const command = await sandbox.runCommand({
       cmd: "bash",
       args: ["-lc", LAUNCHER],
@@ -118,6 +127,8 @@ export default async function handler(req, res) {
       sandbox: sandbox.name,
       sessionId: session.sessionId,
       cmdId: command.cmdId,
+      monitorToken: monitor.token,
+      monitorExpiresAt: monitor.expiresAt,
       mode
     });
   } catch (error) {
