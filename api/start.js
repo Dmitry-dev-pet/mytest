@@ -8,8 +8,12 @@ import {
 } from "../lib/auth.js";
 import {
   CODEX_HOME,
+  CONTROL_DIR,
   REPO_DIR,
   REPO_URL,
+  RUN_EXIT,
+  RUN_LOG,
+  RUN_STATUS,
   getResearchSandbox
 } from "../lib/sandbox.js";
 
@@ -25,12 +29,20 @@ const MODES = new Set([
 
 const LAUNCHER = String.raw`set -euo pipefail
 repo="$REPO_DIR"
+mkdir -p "$CONTROL_DIR"
+rm -f "$RUN_EXIT"
+printf '%s\n' 'running' > "$RUN_STATUS"
+: > "$RUN_LOG"
+exec >>"$RUN_LOG" 2>&1
 
 askpass="$(mktemp)"
-cleanup() {
+finish() {
+  rc=$?
   rm -f "$askpass"
+  printf '%s\n' "$rc" > "$RUN_EXIT"
+  printf '%s\n' 'finished' > "$RUN_STATUS"
 }
-trap cleanup EXIT
+trap finish EXIT
 
 cat > "$askpass" <<'EOS'
 #!/usr/bin/env bash
@@ -47,7 +59,7 @@ if [[ ! -d "$repo/.git" ]]; then
     git clone "$REPO_URL" "$repo"
 fi
 
-exec bash "$repo/vercel-hobby/runner/run-stage.sh"
+bash "$repo/vercel-hobby/runner/run-stage.sh"
 `;
 
 export default async function handler(req, res) {
@@ -90,8 +102,12 @@ export default async function handler(req, res) {
         MODE: mode,
         TASK: task,
         CODEX_HOME,
+        CONTROL_DIR,
         REPO_DIR,
-        REPO_URL
+        REPO_URL,
+        RUN_EXIT,
+        RUN_LOG,
+        RUN_STATUS
       }
     });
 
