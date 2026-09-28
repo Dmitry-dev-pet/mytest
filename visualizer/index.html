@@ -6,26 +6,26 @@
   <meta name="color-scheme" content="dark" />
   <meta
     name="description"
-    content="Interactive browser visualization of the C-001 one-circle Rubik sticker construction."
+    content="Synchronized 3D Rubik's Cube and C-001 one-circle sticker visualization."
   />
-  <title>Rubik One-Circle Visualizer</title>
+  <title>Rubik Cube ↔ One Circle</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <main class="shell">
     <header class="hero">
       <div>
-        <p class="eyebrow">PhysicsIntern · C-001 browser prototype</p>
-        <h1>Rubik on one circle</h1>
+        <p class="eyebrow">PhysicsIntern · synchronized browser prototype</p>
+        <h1>Rubik cube ↔ one circle</h1>
         <p class="lede">
-          Forty-eight sticker tokens, exact face permutations, and every animated path constrained
-          to the same fixed Euclidean circle.
+          The ordinary 3D cube and the established one-circle model share the same 48 sticker
+          identities, exact move table, animation clock, and logical state.
         </p>
       </div>
       <div class="hero-badges" aria-label="model properties">
+        <span>3D cube</span>
         <span>1 circle</span>
-        <span>48 slots</span>
-        <span>endpoint-faithful</span>
+        <span>48 linked stickers</span>
       </div>
     </header>
 
@@ -39,10 +39,35 @@
           <button id="pause-btn" class="quiet-button" type="button">Pause</button>
         </div>
 
-        <div class="canvas-wrap">
-          <canvas id="cube-canvas" aria-label="One-circle Rubik sticker animation"></canvas>
-          <div id="error-banner" class="error-banner" hidden></div>
+        <div class="comparison-grid">
+          <section class="view-panel">
+            <div class="view-heading">
+              <div>
+                <span class="view-kicker">Physical reference</span>
+                <h2>3D Rubik’s Cube</h2>
+              </div>
+              <span class="view-hint">drag to rotate · click sticker to pin</span>
+            </div>
+            <div class="canvas-wrap cube-wrap">
+              <canvas id="cube3d-canvas" aria-label="Synchronized 3D Rubik's Cube"></canvas>
+            </div>
+          </section>
+
+          <section class="view-panel">
+            <div class="view-heading">
+              <div>
+                <span class="view-kicker">Established W8 model</span>
+                <h2>One-circle representation</h2>
+              </div>
+              <span class="view-hint">hover/click links to the cube</span>
+            </div>
+            <div class="canvas-wrap circle-wrap">
+              <canvas id="circle-canvas" aria-label="One-circle Rubik sticker animation"></canvas>
+            </div>
+          </section>
         </div>
+
+        <div id="error-banner" class="error-banner" hidden></div>
 
         <div class="stat-grid" aria-live="polite">
           <div>
@@ -64,6 +89,10 @@
           <div>
             <span class="stat-label">Exact pair events / move</span>
             <strong id="stat-exact">—</strong>
+          </div>
+          <div>
+            <span class="stat-label">Selected sticker</span>
+            <strong id="stat-selected">—</strong>
           </div>
           <div>
             <span class="stat-label">State</span>
@@ -109,35 +138,35 @@
           <input id="speed-range" type="range" min="0.2" max="3" step="0.05" value="1" />
 
           <div class="slider-heading">
-            <label for="marker-range">Marker radius</label>
+            <label for="marker-range">Circle marker radius</label>
             <strong id="marker-value">0.040 R</strong>
           </div>
           <input id="marker-range" type="range" min="0.018" max="0.06" step="0.002" value="0.04" />
         </section>
 
         <section class="toggle-section">
-          <label><input id="labels-toggle" type="checkbox" checked /> Token labels</label>
-          <label><input id="collision-toggle" type="checkbox" checked /> Highlight overlaps</label>
+          <label><input id="labels-toggle" type="checkbox" checked /> Sticker labels</label>
+          <label><input id="collision-toggle" type="checkbox" checked /> Highlight circle overlaps</label>
           <label><input id="moving-toggle" type="checkbox" checked /> Highlight moving stickers</label>
         </section>
 
         <section class="model-note">
-          <h2>What you are looking at</h2>
+          <h2>Linked identity</h2>
           <p>
-            Coincidences are allowed in the established W8 model. So overlaps during a move are a
-            measured readability cost, not an algebraic error.
+            A colored square on the cube and a colored point on the circle are the same token.
+            Hover either view to highlight its counterpart; click to keep it pinned while moves run.
           </p>
           <dl>
-            <div><dt>Path</dt><dd>cubic easing on the fixed circle</dd></div>
-            <div><dt>State update</dt><dd><code>new[g(i)] = old[i]</code></dd></div>
-            <div><dt>Inverse</dt><dd>exact reversed stored path</dd></div>
+            <div><dt>3D motion</dt><dd>rigid ±90° layer rotation from D-001 conventions</dd></div>
+            <div><dt>Circle path</dt><dd>W8 cubic easing on the fixed circle</dd></div>
+            <div><dt>State update</dt><dd><code>new[g(i)] = old[i]</code> for both views</dd></div>
           </dl>
         </section>
       </aside>
     </section>
 
     <footer>
-      Data: <code>C-001-v1</code> · logical state remains integer-valued; floating point is rendering only.
+      Source of truth: <code>data/c001-browser.json</code> · rendering is floating point; logical sticker identity remains exact and integer-valued.
     </footer>
   </main>
 
