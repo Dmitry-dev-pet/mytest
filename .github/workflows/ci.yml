@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Check JavaScript syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          find api lib -type f -name '*.js' -print0 |
+            xargs -0 -n1 node --check
+
+      - name: Install pinned dependencies
+        run: npm install --ignore-scripts --no-audit --no-fund
+
+      - name: Verify Vercel Sandbox SDK surface
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import { Sandbox } from '@vercel/sandbox';
+
+          const requiredStatic = ['get', 'getOrCreate'];
+          const requiredPrototype = ['runCommand', 'currentSession', 'update', 'stop'];
+
+          for (const key of requiredStatic) {
+            if (typeof Sandbox[key] !== 'function') {
+              throw new Error(`Sandbox.${key} is unavailable`);
+            }
+          }
+          for (const key of requiredPrototype) {
+            if (typeof Sandbox.prototype[key] !== 'function') {
+              throw new Error(`Sandbox.prototype.${key} is unavailable`);
+            }
+          }
+
+          console.log('Sandbox SDK surface: ok');
+          NODE
