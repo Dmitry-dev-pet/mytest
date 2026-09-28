@@ -1,15 +1,21 @@
 import {
-  requireGitHubOidc,
+  requireMonitorToken,
   requirePost,
   sendError
 } from "../lib/auth.js";
-import { stopResearchSandbox } from "../lib/sandbox.js";
+import {
+  MONITOR_AUTH,
+  getExistingResearchSandbox
+} from "../lib/sandbox.js";
 
 export default async function handler(req, res) {
   try {
     requirePost(req);
-    await requireGitHubOidc(req);
-    await stopResearchSandbox();
+
+    const sandbox = await getExistingResearchSandbox();
+    await requireMonitorToken(req, sandbox, MONITOR_AUTH);
+    await sandbox.stop();
+
     res.status(200).json({ ok: true, stopped: true });
   } catch (error) {
     sendError(res, error);
