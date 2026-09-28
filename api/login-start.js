@@ -5,13 +5,18 @@ import {
 } from "../lib/auth.js";
 import {
   CODEX_HOME,
+  CONTROL_DIR,
+  LOGIN_LOG,
   getResearchSandbox
 } from "../lib/sandbox.js";
 
 const LOGIN = String.raw`set -euo pipefail
 export CODEX_HOME="$CODEX_HOME"
 tools="/home/vercel-sandbox/.physics-tools"
-mkdir -p "$CODEX_HOME" "$tools"
+mkdir -p "$CODEX_HOME" "$CONTROL_DIR" "$tools"
+rm -f "$LOGIN_LOG"
+: > "$LOGIN_LOG"
+exec >>"$LOGIN_LOG" 2>&1
 
 wanted="codex-cli 0.157.0"
 current=""
@@ -38,7 +43,7 @@ export default async function handler(req, res) {
       cmd: "bash",
       args: ["-lc", LOGIN],
       detached: true,
-      env: { CODEX_HOME }
+      env: { CODEX_HOME, CONTROL_DIR, LOGIN_LOG }
     });
 
     const session = sandbox.currentSession();
