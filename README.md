@@ -5,7 +5,7 @@
 This repository currently exists because the live Vercel project `mytest` is connected to it. It temporarily bundles two independently owned components:
 
 - controller/API runtime — canonical source: `Dmitry-dev-pet/physics-intern-hobby-controller`;
-- Rubik browser visualizer — canonical source: `Dmitry-dev-pet/rubik-visualizer`.
+- Rubik browser visualizer — canonical source: `Dmitry-dev-pet/rubik-graph-lab`.
 
 ## Why it still exists
 
